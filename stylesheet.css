@@ -1,0 +1,43 @@
+*, .jumbotron {
+  background-color: lightBlue;
+  font-family: 'Allerta', sans-serif;
+}
+
+.header, .button-container, .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 10px;
+}
+
+.header, h1, .button-container, #weather-container, #cityState, #tempF, #tempC, #weather, .weatherImg, #weatherImg {
+  background-color: white;
+}
+
+.header {
+  margin-top: 5px;
+  font-size: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button, .btn, .btn-primary {
+  font-size: 1.5em;
+  box-shadow: 2px 2px black;
+  font-family: 'Allerta', sans-serif;
+}
+
+footer {
+  margin-top: 3px;
+}
+
+.container {
+  font-size: 1.3em;
+}
